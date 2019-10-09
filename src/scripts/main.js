@@ -32,3 +32,5 @@ const articleFooter = document.querySelector(".article__footer");
 articleFooter.classList.add("goldenrod")
 
 console.log("articleFooter", articleFooter);
+
+//adding a comment hope this helps
