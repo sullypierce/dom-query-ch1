@@ -23,4 +23,16 @@ for (i=0; i<allHeaders.length; i++) {
 
 const dashedClass = document.querySelector(".dashed");
 dashedClass.classList.remove("dashed");
+
 console.log("dashedClass", dashedClass)
+
+
+//practice problem 4
+
+const articleFooter = document.querySelector(".article__footer");
+articleFooter.classList.add("goldenrod")
+
+console.log("articleFooter", articleFooter);
+
+//adding a comment hope this helps
+
