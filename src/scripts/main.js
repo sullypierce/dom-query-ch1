@@ -11,11 +11,16 @@ console.log("firstHeader", firstHeader);
 
 const allHeaders = document.querySelectorAll(".article__header");
 for (i = 0; i < allHeaders.length; i++) {
-    allHeaders[i].classList.remove("article__header");
-    allHeaders[i].classList.add("article__header_important")
+    
+    allHeaders[i].classList.add("important")
 }
 
 for (i=0; i<allHeaders.length; i++) {
     console.log(allHeaders[i]);
 }
 
+// practice problem 3
+
+const dashedClass = document.querySelector(".dashed");
+dashedClass.classList.remove("dashed");
+console.log("dashedClass", dashedClass)
